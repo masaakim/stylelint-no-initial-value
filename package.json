@@ -1,6 +1,6 @@
 {
   "name": "stylelint-no-initial-value",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Stylelint rule to disallow using initial value when it's not inherited",
   "main": "index.js",
   "scripts": {
