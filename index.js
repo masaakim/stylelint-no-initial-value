@@ -18,11 +18,6 @@ module.exports = stylelint.createPlugin(ruleName, (opts) => (root, result) => {
   if (!validOptions) return
 
   root.walkDecls(decl => {
-    console.log(decl)
-    console.log(isNotInheritedProp(decl.prop))
-    console.log(decl.prop)
-    console.log(decl.value)
-    console.log(isInitialValue(decl.prop, decl.value))
     if (isNotInheritedProp(decl.prop)) {
       if (isInitialValue(decl.prop, decl.value)) {
         stylelint.utils.report({
