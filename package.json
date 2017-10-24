@@ -1,0 +1,31 @@
+{
+  "name": "stylelint-no-initial-value",
+  "version": "0.0.0",
+  "description": "Stylelint rule to disallow using initial value when it's not inherited",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/index.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morishitter/stylelint-no-initial-value.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-plugin",
+    "css",
+    "scss"
+  ],
+  "author": "Masaaki Morishita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morishitter/stylelint-no-initial-value/issues"
+  },
+  "homepage": "https://github.com/morishitter/stylelint-no-initial-value#readme",
+  "devDependencies": {
+    "mdn-data": "^1.0.0",
+    "stylelint": "^8.2.0",
+    "stylelint-test-rule-tape": "^0.2.0",
+    "tap-spec": "^4.1.1"
+  }
+}
